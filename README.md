@@ -1,1 +1,17 @@
 # SEM_5
+
+All my SEM_5 assignments at bennett university.
+
+AI & ML: VIPUL MISHRA
+
+AUTOMATA: 
+
+DEPT ELECTIVES: 
+
+    DEEP LEARNING:
+
+    CRYPTOGRAPHY:
+    
+MINOR:
+
+    PROTOTYPING & BUSINESS MODELLING
