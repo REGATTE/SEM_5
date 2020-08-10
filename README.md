@@ -23,3 +23,19 @@ ELECTIVES:
     SWAYAM_2 CONSUMER BUYING BEHAVIOUR 
     
     SWAYAM_3 INTERNATIONAL BUSINESS
+
+
+
+ECSE303L AI & ML: VIPUL KUMAR MISHRA:
+
+    Mid Term 15%
+
+    End Term 25%
+
+    Assignment 5%
+
+    Quiz 10%
+
+    Lab Cont Eval 15%
+
+    Project 30%
