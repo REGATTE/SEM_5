@@ -27,7 +27,7 @@ ELECTIVES:
 
 # Course Marks Distribution
 
-ECSE303L AI & ML: VIPUL KUMAR MISHRA:
+(ECSE303L) AI & ML: VIPUL KUMAR MISHRA:
 
     Mid Term 15%
 
@@ -40,3 +40,20 @@ ECSE303L AI & ML: VIPUL KUMAR MISHRA:
     Lab Cont Eval 15%
 
     Project 30%
+    
+(ECSE352L) Cryptography and Network Security
+    
+    Mid Term 10%
+    
+    End term 30%
+    
+    Lab 15%
+    
+    Quiz 10%
+    
+    Viva 10%
+    
+    Project 25%
+  
+
+    
