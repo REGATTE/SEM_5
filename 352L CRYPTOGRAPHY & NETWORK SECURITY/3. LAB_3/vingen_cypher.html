@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vigenere Cipher</title>
+	<script type="text/javascript">
+		var text = document.getElementById('p').value.toLowerCase();
+		var key = document.getElementById('k').value.toLowerCase();
+		if(text.length<key.length){
+			alert("Key length can't be greater than plaintext length")
+		}
+		function encrypt(){
+
+            var text=document.getElementById('p').value.toLowerCase();
+            var key=document.getElementById('k').value.toLowerCase();
+            var ki=0;
+            var result="";
+            for(var i=0;i<text.length;i++)
+            {
+                if(ki==key.length){
+                    ki=0;
+                }
+                var a=(text.charCodeAt(i) + key.charCodeAt(ki) -97-97)%26;
+                result+=String.fromCharCode(a+97);
+                ki+=1
+                // console.log(result);
+            }
+           // alert(result); 
+            document.getElementById('result').value=result
+
+        }
+		function decrypt(){
+
+            var text=document.getElementById('p').value.toLowerCase();
+            var key=document.getElementById('k').value.toLowerCase();
+            var ki=0;
+            var result="";
+            for(var i=0;i<text.length;i++)
+            {
+                if(ki==key.length){
+                    ki=0;
+                }
+                var a=(text.charCodeAt(i) - key.charCodeAt(ki)+26)%26;
+                result+=String.fromCharCode(a+97);
+                ki+=1
+                // console.log(result);
+            }
+           // alert(result); 
+            document.getElementById('result').value=result
+
+        }
+	</script>
+</head>
+<body>
+<form name = "f1">
+	Plaintext: <input type="text" id="p"><br>
+	Key: <input type="text" id="k"><br>
+	<input type="button" id="enc" value="Encrypt" onclick="encrypt()">
+	<input type="button" id="dec" value="Decrypt" onclick="decrypt()"><br><br>
+	Result: <input type="text" id="result">
+</form>
+</body>
+</html>
